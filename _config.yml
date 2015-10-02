@@ -4,7 +4,7 @@ email: bill@belayme.com
 description: Find a friend to help you send!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://belayme.co" # the base hostname & protocol for your site
-twitter_username: bill_zy
+twitter_username: billmorris211
 github_username:  cydoval
 
 # Build settings
