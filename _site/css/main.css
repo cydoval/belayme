@@ -4,14 +4,20 @@ body {
 section.panel_wrapper {
   flex-direction: row;
   min-height: 700px;
-  display: flex; }
+  display: flex;
+  background-color: #f2f2f2; }
   section.panel_wrapper .left_panel {
     position: static;
     justify-content: space-between;
     min-height: 750px;
     height: 100vh;
     flex: 1 0 384px;
-    background-color: orange; }
+    background-image: url("/media/feesh.jpg");
+    background-position: 70%;
+    background-size: 180% auto;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(93% 0, 99% 24%, 94% 42%, 100% 70%, 93% 100%, 0 100%, 0 0);
+    clip-path: polygon(93% 0, 99% 24%, 94% 42%, 100% 70%, 93% 100%, 0 100%, 0 0); }
   section.panel_wrapper .right_panel {
     min-height: 750px;
     height: 100vh;
