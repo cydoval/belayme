@@ -22,13 +22,41 @@ section.panel_wrapper {
     min-height: 750px;
     height: 100vh;
     flex: 1 0 384px; }
+    section.panel_wrapper .right_panel .right_content {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 18%; }
+
+input.mailchimp_form {
+  background-color: #fff;
+  border: 1px solid #C8C7CC;
+  width: 243px;
+  height: 30px;
+  font-family: "Fira sans", arial, sans-serif;
+  font-color: #9b9b9b;
+  font-size: 1.6rem; }
+
+input.mailchimp_button {
+  padding: 5px 12px;
+  box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
+  background-color: #EEC611;
+  border: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 0px;
+  color: #fff;
+  font-family: "Fira sans", arial, sans-serif; }
+  input.mailchimp_button:hover {
+    background-color: #d6b20f; }
 
 .btn {
   padding: 14px 30px 12px;
   margin-top: 2.5%;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   border-radius: 2px;
-  font-family: "proxima-nova", arial, sans-serif;
+  font-family: "Fira sans", arial, sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
@@ -38,6 +66,9 @@ section.panel_wrapper {
   .btn:hover {
     opacity: .85;
     color: #fff; }
+
+img.logo {
+  margin-left: -70px; }
 
 html {
   font-size: 10px;
@@ -57,30 +88,24 @@ ul, ol {
     font-size: 1.5rem;
     letter-spacing: .025rem;
     font-family: "ff-tisa-web-pro", Georgia, serif;
-    color: #333433; }
+    color: #424242; }
   ul.no-bullet li, ol.no-bullet li {
     list-style-type: none; }
 
 p {
-  line-height: 1.625;
+  line-height: 1.5;
   letter-spacing: .025rem;
-  font-size: 1.6rem;
-  font-family: "ff-tisa-web-pro", Georgia, serif; }
-  .callout p {
-    font-size: 1.8rem; }
-  .right_col p {
-    font-size: 1.4rem;
-    column-rule: #5a585c; }
-  p.lead {
-    font-size: 1.8rem; }
+  font-size: 1.4rem;
+  font-family: "Fira sans", arial, sans-serif;
+  color: #424242; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333433;
-  font-family: "proxima-nova", arial, sans-serif;
+  color: #424242;
+  font-family: "Fira sans", arial, sans-serif;
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 1.5;
-  font-family: "proxima-nova", arial, sans-serif; }
+  font-family: "Fira sans", arial, sans-serif; }
 
 .callout h1, .callout .h1 {
   font-size: 3rem; }

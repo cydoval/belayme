@@ -31,20 +31,12 @@ ul, ol {
 	}
 }
 p {
-	line-height:1.625;
+	line-height:1.5;
 	letter-spacing:.025rem;
-	font-size:1.6rem;
-	font-family:$serif;
-	.callout & {
-		font-size:1.8rem;
-	}
-	.right_col & {
-		font-size:1.4rem;
-		column-rule: $secondary-font;
-	}
-	&.lead {
-		font-size:1.8rem;
-	}
+	font-size:1.4rem;
+	font-family:$sans-serif;
+	color:$primary-font;
+	
 }
 
 h1, h2, h3, h4, h5, h6 {

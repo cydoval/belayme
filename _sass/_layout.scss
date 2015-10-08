@@ -24,5 +24,10 @@ section.panel_wrapper {
         min-height: 750px;
         height: 100vh;
         flex: 1 0 384px;
+        .right_content {
+          width:60%;
+          margin:0 auto;
+          margin-top:18%;
+        }
     }
 }
