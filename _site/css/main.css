@@ -1,17 +1,21 @@
 body {
-  margin: 0px; }
+  margin: 0px;
+  background-color: #f2f2f2; }
+
+img {
+  max-width: 100%; }
 
 section.panel_wrapper {
   flex-direction: row;
-  min-height: 700px;
-  display: flex;
-  background-color: #f2f2f2; }
+  display: flex; }
+  @media (max-width: 850px) {
+    section.panel_wrapper {
+      flex-direction: column; } }
   section.panel_wrapper .left_panel {
     position: static;
     justify-content: space-between;
-    min-height: 750px;
     height: 100vh;
-    flex: 1 0 384px;
+    flex: 1 0 45vw;
     background-image: url("/media/feesh.jpg");
     background-position: 70%;
     background-size: cover;
@@ -21,14 +25,30 @@ section.panel_wrapper {
     text-align: center; }
     section.panel_wrapper .left_panel img.banner {
       margin-top: 25%; }
+      @media (max-width: 850px) {
+        section.panel_wrapper .left_panel img.banner {
+          margin-top: 2%; } }
+    @media (max-width: 850px) {
+      section.panel_wrapper .left_panel {
+        flex: none;
+        height: 30vh;
+        -webkit-clip-path: none;
+        clip-path: none; } }
   section.panel_wrapper .right_panel {
-    min-height: 750px;
     height: 100vh;
-    flex: 1 0 384px; }
+    flex: 1 0 55vw; }
+    @media (max-width: 850px) {
+      section.panel_wrapper .right_panel {
+        height: 50vh;
+        flex: none; } }
     section.panel_wrapper .right_panel .right_content {
       width: 60%;
       margin: 0 auto;
       margin-top: 25%; }
+      @media (max-width: 850px) {
+        section.panel_wrapper .right_panel .right_content {
+          width: 70%;
+          margin-top: 5%; } }
 
 input.mailchimp_form {
   background-color: #fff;
